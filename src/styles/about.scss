@@ -1,57 +1,100 @@
+@import "./abstracts/helpers";
+@import "./abstracts/mixins";
+@import "./abstracts/variables";
+@import "./abstracts/sections";
+
 .about-section {
   width: 80vw;
   margin-top: 10vh;
   display: flex;
   justify-content: space-between;
-  @include media(">=phone", "<lgphone") {
-    flex-direction: column-reverse;
+}
+h1 {
+  font-size: 3rem;
+  line-height: 20px;
+  @include respond(phone) {
+    text-align: center;
   }
-  @include media(">=lgphone", "<tablet") {
-    flex-direction: column-reverse;
+}
+
+#about {
+  background-color: $primary-color;
+  background-image: linear-gradient(
+    135deg,
+    $primary-color 0%,
+    $secondary-color 100%
+  );
+  color: $white-color;
+  height: 100%;
+  border-top: 0px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  padding-bottom: 10%;
+
+  @include respond(tab-land) {
+    height: 100%;
+    -webkit-clip-path: none;
+    clip-path: none;
   }
-  @include media(">=tablet", "<desktop") {
-    flex-direction: column-reverse;
-    align-items: center;
-  }
-  .content {
-    width: 50%;
-    @include media(">=phone", "<lgphone") {
-      width: 100%;
+
+  .about-wrapper {
+    @include respond(phone) {
+      padding-bottom: 5rem;
     }
-    @include media(">=lgphone", "<tablet") {
-      width: 100%;
-    }
-    @include media(">=tablet", "<desktop") {
-      width: 100%;
+    &__image {
+      display: flex;
+      height: 100%;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+
+      @include respond(tab-port) {
+        padding-bottom: 6.4rem;
+      }
+      @include respond(tab-land) {
+        height: 100%;
+      }
     }
 
-    h1 {
-      font-size: 3rem;
-      line-height: 20px;
-      @include media(">=tablet", "<desktop") {
-        text-align: center;
+    &__info {
+      display: flex;
+      height: 100%;
+      justify-content: center;
+      flex-direction: column;
+
+      @include respond(phone) {
+        align-items: center;
       }
-    }
-    p {
-      @include media(">=tablet", "<desktop") {
-        text-align: center;
+
+      &-text {
+        text-align: left;
+
+        @include respond(tab-port) {
+          font-size: 1.5rem;
+          text-align: center;
+        }
+        @include respond(phone) {
+          font-size: 1.6rem;
+          text-align: center;
+        }
+
+        &--important {
+          background: darken($secondary-color, 1%);
+          display: inline-block;
+          font-style: italic;
+          padding: 0 0.3rem;
+          margin: 0.3rem 0;
+          line-height: 1.6;
+
+          @include respond(phone) {
+            display: inline;
+            margin: 0;
+            padding: 0;
+            background: transparent;
+            font-style: normal;
+          }
+        }
       }
-    }
-  }
-  .image-wrapper {
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    @include media(">=phone", "<lgphone") {
-      width: 100%;
-    }
-    @include media(">=lgphone", "<tablet") {
-      width: 100%;
-    }
-    @include media(">=tablet", "<desktop") {
-      width: 100%;
     }
   }
 }
