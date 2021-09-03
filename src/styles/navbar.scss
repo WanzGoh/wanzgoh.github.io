@@ -1,9 +1,17 @@
+@import "./abstracts/helpers";
+@import "./abstracts/mixins";
+@import "./abstracts/variables";
+@import "./abstracts/sections";
+
+
+
+
 .navbar-wrapper {
-  width: 80vw;
+  width: 100%;
   margin-top: 10vh;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   .name {
     font-weight: 600;
   }
@@ -14,7 +22,7 @@
       font-family: "Open Sans";
       opacity: 0.6;
       transition: all 0.2s ease-in-out;
-      font-size: 12px;
+      font-size: 0.9em;;
       background-color: transparent;
       outline: none;
       border: 0px;
@@ -22,9 +30,19 @@
       &:hover {
         opacity: 1;
       }
+    @include respond(phone) {
+      font-size: 0.6em;
+    }
+    @include respond(tab-port) {
+      font-size: 1.3em;
+    }
+    @include respond(tab-land) {
+      font-size: 0.6em;
+    }
     }
     .active {
       color: black;
     }
   }
+  
 }

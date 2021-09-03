@@ -17,6 +17,9 @@
 @import "./abstracts/mixins";
 @import "./abstracts/variables";
 @import "./abstracts/sections";
+
+
+
 * {
   font-family: "Montserrat";
 }
@@ -30,14 +33,8 @@ body {
 }
 
 section {
-  
   padding: 5rem 0rem;
 
-  @include respond(phone) {
-    border: none;
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
 }
 
 .container {
