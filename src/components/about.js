@@ -43,8 +43,11 @@ const About = () => {
               <p className="about-wrapper__info-text">{data.aboutParaTwo}</p>
               <p className="about-wrapper__info-text">{data.aboutParaThree}</p>
               <Fade bottom>
-              <a className ="primary-btn" href={data.resume}>
+              <a id="abutlink" className ="primary-btn" href={data.linkedIn}>
                 Linked In
+              </a>
+              <a id="abutlink" className ="primary-btn" href={data.resume}>
+                Resume
               </a>
             </Fade>
             </div>

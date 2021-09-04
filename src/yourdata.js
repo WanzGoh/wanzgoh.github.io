@@ -9,9 +9,6 @@ import pythonIcon from './images/python.svg'
 
 // Social Icon
 import githubIcon from "./images/github.svg"
-import codepenIcon from "./images/codepen.svg"
-import dribbbleIcon from "./images/dribbble.svg"
-import instagramIcon from "./images/instagram.svg"
 import linkedinIcon from "./images/linkedin.svg"
 
 //images
@@ -47,7 +44,7 @@ export default {
     {
       title: "Youtube clone ", //Project Title - Add Your Project Title Here
       para:
-      "Comming Sonn " ,//Project Image - Add Your Project Image Here
+      "Comming Soon " ,//Project Image - Add Your Project Image Here
       imageSrc:
         youclone,
       //Project URL - Add Your Project Url Here
@@ -117,7 +114,7 @@ export default {
 
   // End Work Section -----------------------
 
-  // About Secton --------------
+  // About Section --------------
   // name
   aboutParaOne:
     "Yuwan Go",
@@ -128,8 +125,10 @@ export default {
     "developer.daniel512@gmail.com",
   aboutImage:
     aboutImage,
-    resume :
+  linkedIn :
   'https://www.linkedin.com/in/daniel-yuwan-goh-597207187',
+  resume :
+  "https://drive.google.com/file/d/16nhJ30WCtLQyIYVLY5vZLOE9m67j3R2K/view?usp=sharing",
   //   End About Section ---------------------
 
   // Skills Section ---------------
