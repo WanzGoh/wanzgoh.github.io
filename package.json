@@ -1,9 +1,9 @@
 {
-  "name": "react-portfolio-template",
+  "name": "Yuwan's Personal Portfolio",
   "private": true,
-  "description": "Portfolio Template For Awesome Peoples",
+  "description": "Yuwan's Portfolio",
   "version": "0.1.0",
-  "author": "Chetan Verma <hello@chetanverma.com>",
+  "author": "Ywuan Go <developer.daniel512@gmail.com>",
   "dependencies": {
     "bootstrap": "^5.1.0",
     "gatsby": "^2.26.1",
