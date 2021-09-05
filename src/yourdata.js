@@ -44,11 +44,11 @@ export default {
     {
       title: "Youtube clone ", //Project Title - Add Your Project Title Here
       para:
-      "Comming Soon " ,//Project Image - Add Your Project Image Here
+      "Comming up soon s See Code. " ,//Project Image - Add Your Project Image Here
       imageSrc:
         youclone,
       //Project URL - Add Your Project Url Here
-      url: "/ ",
+      url: "https://github.com/WanzGoh/youtube_-clone.reactJs",
     },
     {
       title: "Bit and Salt company build web site", //Project Title - Add Your Project Title Here
