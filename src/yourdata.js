@@ -17,6 +17,7 @@ import bitandsalt from "./images/bitandsalt.png"
 import spainWebsite from "./images/spainWesite.png"
 import vantech from "./images/vantech.png"
 import youclone from "./images/youtubemain.jpg"
+import facebookclone from './images/facebookclone.png'
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -41,6 +42,15 @@ export default {
 
   // Work Section ------------------------
   projects: [
+    {
+      title: "Community Website  ", //Project Title - Add Your Project Title Here
+      para:
+      "using React, Firebase" ,//Project Image - Add Your Project Image Here
+      imageSrc:
+        facebookclone,
+      //Project URL - Add Your Project Url Here
+      url: "https://kovan-8047c.web.app/", 
+    },
     {
       title: "Youtube clone ", //Project Title - Add Your Project Title Here
       para:
