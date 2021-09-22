@@ -130,7 +130,7 @@ export default {
     "Yuwan Go",
     //address
   aboutParaTwo:
-    "511 Rochester ave, Coquitlam, BC V3K 0A2",
+    "Develop personal and commercial projects consisting of components using React. When developing the web, it complies with the responsive type, web standard, and web accessibility. I have experience in distributing real servers using WordPress, Wix, and Shopify. I'm continuing to gain experience through various development works.",
   aboutParaThree:
     "developer.daniel512@gmail.com",
   aboutImage:
