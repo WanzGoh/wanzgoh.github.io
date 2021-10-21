@@ -6,22 +6,22 @@ import data from "../yourdata"
 
 const Work = () => {
   return (
-    <div className="section" id="work">
+    <div className="section" id="project">
       <div className="container">
         <div className="work-wrapper">
           <Fade bottom>
-            <h1>Work Experience</h1>
+            <h1>Projects</h1>
           </Fade>
 
           <div className="grid">
             <Fade bottom cascade>
-              {data.works.map((work, index) => (
+              {data.projects.map((project, index) => (
                 <Card
                   key={index}
-                  heading={work.title}
-                  paragraph={work.para}
-                  imgUrl={work.imageSrc}
-                  projectLink={work.url}
+                  heading={project.title}
+                  paragraph={project.para}
+                  imgUrl={project.imageSrc}
+                  projectLink={project.url}
                 ></Card>
               ))}
             </Fade>

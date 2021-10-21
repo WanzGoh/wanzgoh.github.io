@@ -9,6 +9,7 @@ import About from "../components/about"
 import Skills from "../components/skills"
 import Promotion from "../components/Promotion"
 import Footer from "../components/Footer"
+import Projects from '../components/Project'
 
 const IndexPage = () => (
   <Layout>
@@ -19,6 +20,7 @@ const IndexPage = () => (
     <Promotion></Promotion> 
     <Skills></Skills>
     <Promotion></Promotion>
+    <Projects></Projects>
     <Work></Work>
     <Promotion></Promotion>
     <Promotion></Promotion>

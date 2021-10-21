@@ -5,6 +5,8 @@ import reactIcon from "./images/react.svg"
 import jsIcon from "./images/javascript.svg"
 import codeIcon from "./images/database.svg"
 import pythonIcon from './images/python.svg'
+import flutterIcon from "./images/s-flutter-logo.svg"
+import javaIcon from "./images/java.svg"
 
 
 // Social Icon
@@ -16,9 +18,9 @@ import aboutImage from "./images/profile2.png"
 import bitandsalt from "./images/bitandsalt.png"
 import spainWebsite from "./images/spainWesite.png"
 import vantech from "./images/vantech.png"
-import youclone from "./images/youtubemain.jpg"
+import youclone from "./images/yourvideo.png"
 import facebookclone from './images/facebookclone.png'
-
+import duchess  from "./images/duchess.png"
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
   //Change The Website Template
@@ -40,21 +42,22 @@ export default {
 
   // End Header Details -----------------------
 
-  // Work Section ------------------------
-  projects: [
+  
+  // Project SEction --------------------------
+  projects : [
     {
-      title: "Community Website  ", //Project Title - Add Your Project Title Here
+      title: "korean Community Website  ", //Project Title - Add Your Project Title Here
       para:
-      "using React, Firebase" ,//Project Image - Add Your Project Image Here
+      "Recat, Firebase, Figma" ,//Project Image - Add Your Project Image Here
       imageSrc:
         facebookclone,
       //Project URL - Add Your Project Url Here
       url: "https://kovan-8047c.web.app/", 
     },
     {
-      title: "Youtube clone ", //Project Title - Add Your Project Title Here
+      title: "Your Video upload ", //Project Title - Add Your Project Title Here
       para:
-      "Comming up soon s See Code. " ,//Project Image - Add Your Project Image Here
+      "React JS, MongoDB " ,//Project Image - Add Your Project Image Here
       imageSrc:
         youclone,
       //Project URL - Add Your Project Url Here
@@ -63,33 +66,49 @@ export default {
     {
       title: "Bit and Salt company build web site", //Project Title - Add Your Project Title Here
       para:
-        "Overall build up web pages and functions - May 2021", // Add Your Service Type Here
+        "Wix, JavaScript, Photoshop", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
         bitandsalt,
       //Project URL - Add Your Project Url Here
       url: "https://www.bitandsalt.com/",
     },
+  ],
+  
+  
+  
+  // Work Section ------------------------
+  works: [
     {
-      title: "English School in Spain", //Project Title - Add Your Project Title Here
+      title: "Duchess Designs Ltd", //Project Title - Add Your Project Title Here
       para:
-        "I worked SOBRE NOSOTROS,CURSOS and CONTACTO pages - Mar 2019", // Add Your Service Type Here
+        "Worked with a team of 3 on building an image storage server projectContributed to the project to rebuild the website and collaborate with graphic designers", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-      spainWebsite,
+      duchess,
       //Project URL - Add Your Project Url Here
-      url: "https://trulycanadian-ed.com/",
+      url: "/",
     },
     {
       title: "Vantechs company", //Project Title - Add Your Project Title Here
       para:
-        "Commercial Website rebuild project - jan 2019", // Add Your Service Type Here
+        "Rebuilt the old website into modern web-designsManaged cloud and organized image files, document files", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
       vantech,
       //Project URL - Add Your Project Url Here
       url: "https://trulycanadian-ed.com/",
     },
+    {
+      title: "English School in Spain", //Project Title - Add Your Project Title Here
+      para:
+        "Contributed to the project to build a website which is a study abroad institute operated in SpainCreated website heather, footer, navigation, content and contact pages collaborated with graphic designers", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc:
+      spainWebsite,
+      //Project URL - Add Your Project Url Here
+      url: "https://trulycanadian-ed.com/",
+    },      
     // {
     //   title: "", //Project Title - Add Your Project Title Here
     //   para:
@@ -136,9 +155,9 @@ export default {
   aboutImage:
     aboutImage,
   linkedIn :
-  'https://www.linkedin.com/in/daniel-yuwan-goh-597207187',
+  'https://www.linkedin.com/in/daniel-yw',
   resume :
-  "https://drive.google.com/file/d/16nhJ30WCtLQyIYVLY5vZLOE9m67j3R2K/view?usp=sharing",
+  "https://docs.google.com/document/d/1EzsNhWyHbpvq4LHwV2kXnmW3VbLmFjaLe1li1S8WSeE/edit?usp=sharing",
   //   End About Section ---------------------
 
   // Skills Section ---------------
@@ -166,6 +185,21 @@ export default {
       para:
         "REACT",
     },
+    // {
+    //   img: reactIcon,
+    //   para:
+    //     "REACT NAITIVE",
+    // },
+    {
+      img: javaIcon,
+      para:
+        "JAVA",
+    },
+    // {
+    //   img: flutterIcon,
+    //   para:
+    //     "FLUTTER",
+    // },
     {
       img: pythonIcon,
       para:
