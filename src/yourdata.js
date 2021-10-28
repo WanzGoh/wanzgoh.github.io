@@ -97,7 +97,7 @@ export default {
       imageSrc:
       vantech,
       //Project URL - Add Your Project Url Here
-      url: "https://trulycanadian-ed.com/",
+      url: "https://vantechs.com/",
     },
     {
       title: "English School in Spain", //Project Title - Add Your Project Title Here
@@ -155,9 +155,9 @@ export default {
   aboutImage:
     aboutImage,
   linkedIn :
-  'https://www.linkedin.com/in/daniel-yw',
+  'https://www.linkedin.com/in/daniel-yw/',
   resume :
-  "https://docs.google.com/document/d/1EzsNhWyHbpvq4LHwV2kXnmW3VbLmFjaLe1li1S8WSeE/edit?usp=sharing",
+  "https://drive.google.com/file/d/1FBBQihlE6nSlOwZBQH7Q45Y6X6ESH-JF/view?usp=sharing",
   //   End About Section ---------------------
 
   // Skills Section ---------------
@@ -228,7 +228,7 @@ export default {
     { img: githubIcon, url: 'https://github.com/WanzGoh' },
     {
       img: linkedinIcon,
-      url: 'https://www.linkedin.com/in/daniel-yuwan-goh-597207187',
+      url: 'https://www.linkedin.com/in/daniel-yw/',
     },
     // {
     //   img: codepenIcon,
