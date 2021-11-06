@@ -9,6 +9,7 @@
 @import "./navbar.scss";
 @import "./header.scss";
 @import "./work.scss";
+@import "./project.scss";
 @import "./about.scss";
 @import "./skills.scss";
 @import "./promotion.scss";
@@ -17,8 +18,6 @@
 @import "./abstracts/mixins";
 @import "./abstracts/variables";
 @import "./abstracts/sections";
-
-
 
 * {
   font-family: "Montserrat";
@@ -34,7 +33,6 @@ body {
 
 section {
   padding: 5rem 0rem;
-
 }
 
 .container {

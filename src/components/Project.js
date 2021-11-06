@@ -8,12 +8,12 @@ const Work = () => {
   return (
     <div className="section" id="project">
       <div className="container">
-        <div className="work-wrapper">
+        <div className="project-wrapper">
           <Fade bottom>
             <h1>Projects</h1>
           </Fade>
 
-          <div className="grid">
+          <div className="pgrid">
             <Fade bottom cascade>
               {data.projects.map((project, index) => (
                 <Card
